@@ -1,0 +1,271 @@
+@font-face{
+  font-family: "Poppins";
+  src: url("assets\fonts\Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "Playfair Display";
+  src: url("assets\fonts\PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+body {
+  background: #040403;
+  max-width: 1440px;
+}
+
+.wrapper {
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.btn-contact {
+  width: 170px;
+  height: 50px;
+  background: #fff7e6;
+  border-radius: 0%;
+  color: #633311;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+li > a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.nav-spacing {
+  margin-right: 3rem;
+}
+
+.moment-text {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 69px;
+  color: #ffdc96;
+}
+
+.moment-text-des {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff7e6;
+}
+
+.spacing-top {
+  padding-top: 85px;
+}
+
+.memories {
+  margin-top: -120px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 192px;
+  letter-spacing: 0.38em;
+  color: rgba(255, 220, 150, 0.15);
+}
+
+.about-me {
+  margin-top: 60px;
+  height: 441px;
+  background: #fff7e6;
+  padding: 32px 32px 39px 98px;
+}
+
+.about {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.6875rem;
+  color: rgba(99, 51, 17, 0.35);
+}
+
+.about-name {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.6875rem;
+  color: #633311;
+  margin-top: 67px;
+}
+
+.border {
+  background: #633311;
+  height: 2px;
+  width: 235px;
+  margin-top: -50px;
+  margin-left: 65px;
+}
+
+.dummy-text {
+  padding-right: 45px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #493c34;
+  box-sizing: border-box;
+}
+
+.about-section {
+  margin-bottom: 187px;
+}
+
+.portfolio-text {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 107px;
+  letter-spacing: 0.32em;
+  color: #ffdc96;
+  margin-left: 0;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
+.portfolio-grid {
+  overflow: hidden;
+}
+
+.bg {
+  background: #fff7e6;
+}
+
+.wedding {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.6875rem;
+  color: #633311;
+  margin-bottom: 14px;
+}
+
+.heading-space {
+  margin: 109px 64px 32px 89px;
+}
+
+.heading-space-inv {
+  margin: 109px 85px 32px 64px;
+}
+
+.lorem {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #493c34;
+}
+
+div.col-sm-6 {
+  padding: 0;
+}
+
+.btn1 {
+  margin-top: 66px;
+  border: 3px solid #633311;
+  width: 170px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #633311;
+  border-radius: 0;
+}
+
+.price {
+  margin: 55px 29px;
+}
+
+.btn2 {
+  width: 100%;
+  margin-top: 27px;
+}
+
+.price-amount {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #493c34;
+  text-align: center;
+}
+
+input {
+  background: #fff7e6;
+  border: none;
+  border-bottom: 1px solid #633311 !important;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #493c34;
+}
+
+.price-text {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 107px;
+  letter-spacing: 0.32em;
+  color: #ffdc96;
+}
+
+.balance {
+  margin-left: 400px;
+  margin-top: 148px;
+}
+
+.contact-card {
+  padding: 86px 150px;
+}
+
+.contact {
+  height: 454px;
+  margin-top: 98px;
+}
+
+.foot-space {
+  padding-top: 15px;
+  margin-top: 100px;
+}
+
+.foot-head {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #493c34;
+}
+
+.foot-head-det {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #493c34;
+}
