@@ -9,75 +9,75 @@
     <title>Momento - Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="wrapper d-flex justify-content-between">
-        <div class="navbar-brand">
-          <a href="#">
-            <img src="assets\img\momento.svg" alt="Momento" />
+
+    <!-- HEADER AND NAVBAR -->
+    <nav class="navbar navbar-expand-md">
+      <div class="wrapper d-flex">
+        <div class="d-flex justify-content-between">
+          <a href="#" class="navbar-brand">
+              <img src="assets\img\momento.svg" alt="Momento"/>
           </a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"
+              ><img src="assets\img\align-right.png" alt="Momento"
+            /></span>
+          </button>
         </div>
-
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"
-            ><img src="assets\img\align-right.png" alt="Momento"
-          /></span>
-        </button>
-
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="" class="nav-link nav-spacing">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link nav-spacing">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link nav-spacing">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Price</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <button class="btn btn-contact ml-auto">Contact</button>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="#" class="nav-link nav-spacing">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link nav-spacing">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link nav-spacing">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Price</a>
+              </li>
+            </ul>
+            <button class="btn btn-contact ml-auto button">Contact</button>
         </div>
       </div>
     </nav>
 
-    <div class="mt-5 d-flex">
-      <div class="">
-        <img src="assets\img\Group 3.png" alt="" class="" />
-      </div>
-      <div class="pl-5 spacing-top">
-        <p class="moment-text">Making those beautiful moment last</p>
-        <p class="moment-text-des">
-          Images speak long after the moment are past. Let’s create the
-          beautiful scene that put smile on your face.
-        </p>
-        <div class="">
-          <img src="assets\img\instagram.png" alt="" class="mr-2" />
-          <img src="assets\img\linkedin.png" alt="" class="mr-2" />
-          <img src="assets\img\facebook.png" alt="" class="mr-2" />
-          <img src="assets\img\twitter.png" alt="" />
+    <div class="wrapper mt-5">
+      <div class="d-flex">
+        <div class="dots">
+          <img src="assets\img\Group 3.png" alt="" class=""/>
         </div>
-      </div>
-      <div class="">
-        <img src="assets\img\Group 4.png" alt="" width="697px" height="543px" />
+        <div class="pl-5 spacing-top">
+          <p class="moment-text">Making those beautiful moment last</p>
+          <p class="moment-text-des">
+            Images speak long after the moment are past. Let’s create the
+            beautiful scene that put smile on your face.
+          </p>
+          <div class="dots">
+            <img src="assets\img\instagram.png" alt="" class="mr-2" />
+            <img src="assets\img\linkedin.png" alt="" class="mr-2" />
+            <img src="assets\img\facebook.png" alt="" class="mr-2" />
+            <img src="assets\img\twitter.png" alt="" />
+          </div>
+        </div>
+        <div class="img-res">
+          <img src="assets\img\Group 4.png" alt=""/>
+        </div>
       </div>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper dots">
       <p class="memories">MEMORIES</p>
     </div>
 
+      <!-- ABOUT SECTION -->
     <div class="wrapper d-flex about-section" id="about">
-      <div class="about-me">
+      <div class="about-me block">
         <p class="float-right about">ABOUT</p>
         <pre class="about-name">
 Hi, 
@@ -97,17 +97,18 @@ I’m Joe Denward
           vestibulum sit sed.
         </p>
       </div>
-      <div class="d-block">
-        <img src="assets\img\Rectangle 9.png" alt="" />
+      <div class="">
+        <img src="assets\img\Rectangle 9.png" alt=""/>
       </div>
     </div>
 
-    <div class="wrapper">
-      <div class="d-flex" id="portfolio">
+    <!-- PORTFOLIO SECTION -->
+    <div class="wrapper" id="portfolio">
+      <div class="d-flex">
         <p class="portfolio-text mt-auto mr-auto">PORTFOLIO</p>
         <div class="portfolio-grid">
           <div class="row">
-            <div class="col-sm-6 bg">
+            <div class="col-md-6 bg no-pad">
               <div class="heading-space">
                 <p class="wedding">Wedding Photograph</p>
                 <p class="lorem">
@@ -117,18 +118,15 @@ I’m Joe Denward
                   tellus at consectetur. Tempus nunc viverra lacinia odio sed
                   gravida neque.
                 </p>
-                <buttton class="btn1 btn float-right">View more</buttton>
+                <buttton class="btn1 btn float-right dots">View more</buttton>
               </div>
             </div>
-            <div class="col-sm-6">
-              <img src="assets\img\Rectangle 10.png" alt="" />
+            <div class="col-md-6 no-pad">
+              <img src="assets\img\Rectangle 10.png" alt="" class="img-grid"/>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6">
-              <img src="assets\img\Rectangle 11.png" alt="" />
-            </div>
-            <div class="col-sm-6 bg">
+            <div class="col-md-6 bg order-2 no-pad">
               <div class="heading-space-inv">
                 <p class="wedding">Landscape Photograph</p>
                 <p class="lorem">
@@ -138,12 +136,16 @@ I’m Joe Denward
                   tellus at consectetur. Tempus nunc viverra lacinia odio sed
                   gravida neque.
                 </p>
-                <buttton class="btn1 btn float-right">View more</buttton>
+                <buttton class="btn1 btn float-right dots">View more</buttton>
               </div>
+            </div>
+
+            <div class="col-md-6 order-1 no-pad">
+              <img src="assets\img\Rectangle 11.png" alt="" class="img-grid"/>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6 bg">
+            <div class="col-md-6 bg no-pad">
               <div class="heading-space">
                 <p class="wedding">Potrait Photograph</p>
                 <p class="lorem">
@@ -153,17 +155,18 @@ I’m Joe Denward
                   tellus at consectetur. Tempus nunc viverra lacinia odio sed
                   gravida neque.
                 </p>
-                <buttton class="btn1 btn float-right">View more</buttton>
+                <buttton class="btn1 btn float-right dots">View more</buttton>
               </div>
             </div>
-            <div class="col-sm-6">
-              <img src="assets\img\Rectangle 12.png" alt="" />
+            <div class="col-md-6 no-pad bg-img3">
+              <img src="assets\img\Rectangle 12.png" alt="" class="img-grid"/>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+      <!-- PRICE SECTION -->
     <div class="wrapper mt-5" id="price">
       <div class="price-text">
         PRICE
@@ -207,10 +210,11 @@ I’m Joe Denward
       </div>
     </div>
 
+    <!-- CONTACT SECTION -->
     <div class="wrapper">
       <div class="d-flex mt-5">
         <div class="">
-          <img src="assets\img\Rectangle 17.png" alt="" width="488px" height="482px">
+          <img src="assets\img\Rectangle 17.png" alt="" class="img-grid1">
         </div>
         <div class="bg contact">
           <div class="contact-card">
@@ -228,6 +232,7 @@ I’m Joe Denward
       </div>
     </div>
 
+    <!-- FOOTER SECTION -->
     <footer class="bg foot-space">
       <div class="wrapper d-flex">
         <div class="mr-5">

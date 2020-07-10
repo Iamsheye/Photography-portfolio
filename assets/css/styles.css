@@ -1,11 +1,11 @@
-@font-face{
+@font-face {
   font-family: "Poppins";
-  src: url("assets\fonts\Poppins-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
 }
 
-@font-face{
+@font-face {
   font-family: "Playfair Display";
-  src: url("assets\fonts\PlayfairDisplay-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
 }
 
 body {
@@ -46,7 +46,7 @@ li > a {
 }
 
 .moment-text {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
@@ -69,7 +69,7 @@ li > a {
 
 .memories {
   margin-top: -120px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 8rem;
@@ -80,13 +80,12 @@ li > a {
 
 .about-me {
   margin-top: 60px;
-  height: 441px;
   background: #fff7e6;
   padding: 32px 32px 39px 98px;
 }
 
 .about {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -95,7 +94,7 @@ li > a {
 }
 
 .about-name {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -128,7 +127,7 @@ li > a {
 }
 
 .portfolio-text {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 80px;
@@ -149,7 +148,7 @@ li > a {
 }
 
 .wedding {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -175,8 +174,13 @@ li > a {
   color: #493c34;
 }
 
-div.col-sm-6 {
-  padding: 0;
+.img-grid {
+  height: 100%;
+  width: 100%;
+}
+
+.no-pad {
+  padding: 0 !important;
 }
 
 .btn1 {
@@ -224,7 +228,7 @@ input {
 }
 
 .price-text {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 80px;
@@ -268,4 +272,147 @@ input {
   font-size: 18px;
   line-height: 27px;
   color: #493c34;
+}
+
+@media (max-width: 767px) {
+  nav > div.d-flex {
+    display: block !important;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-spacing {
+    margin-right: 0;
+  }
+
+  .button {
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  body > div:nth-child(2) > div.d-flex,
+  #about {
+    display: block !important;
+  }
+
+  body > div:nth-child(2) > div > div.pl-5.spacing-top {
+    padding: 0 !important;
+    padding-left: 10px !important;
+  }
+
+  div.img-res > img {
+    width: 100% !important;
+  }
+
+  .moment-text {
+    font-size: 175%;
+    line-height: 35px;
+  }
+
+  #about > div:nth-child(2) > img {
+    width: 100%;
+  }
+
+  .about-me {
+    padding: 10px 35px;
+  }
+
+  .border {
+    margin-left: 0;
+  }
+
+  #portfolio > div.d-flex {
+    display: block !important;
+  }
+
+  .portfolio-text {
+    transform: none !important;
+    writing-mode: inherit;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .heading-space,
+  .heading-space-inv {
+    margin: 41px 30px;
+  }
+
+  .wedding {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .lorem {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .order-2 {
+    order: 1;
+  }
+
+  #price > div.d-flex.justify-content-between {
+    display: block !important;
+  }
+
+  .price {
+    margin-left: 17px;
+    margin-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
+
+  .price-text {
+    width: 100%;
+  }
+
+  .price-amount {
+    margin-top: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  body > div:nth-child(7) > div {
+    display: block !important;
+    position: relative;
+  }
+
+  .img-grid1 {
+    width: 100%;
+    height: 80px;
+  }
+
+  .contact {
+    margin-top: 0px;
+    position: absolute;
+    top: 62px;
+    height: auto;
+  }
+
+  .contact-card {
+    padding: 37px 23px;
+  }
+
+  .foot-space {
+    margin-top: 350px;
+    padding-bottom: 40px;
+  }
+
+  footer > div.d-flex {
+    display: block !important;
+  }
+
+  body > footer > div > div.address.mr-5 {
+    margin-right: 0 !important;
+  }
+
 }
